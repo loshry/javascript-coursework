@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The DOM</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- shortcut h1+section>ul>li*3 -->
+   <h1>Things Sam Needs ToDo</h1>
+
+   <section>
+    <ul class = "list">
+        <li>Cut grass</li>
+        <li>Walk dogs</li>
+        <li>Buy groceries</li>
+    </ul>
+
+<!--  removed the action because do not need it in the below <form action=""></form> -- will have inputs in the form and then a button to submit the form-->
+
+    <form class="new-todo">
+        <input type="text">
+        <!-- can input type="number" to force the list to accept numbers -->
+        <button type="submit" id="add-button">Add</button>
+    </form>
+   </section>
+    
+
+
+
+    <script src="./index.js"></script>
+    <!-- put javascript at end of html to capture the formatting first and then the analytics -->
+</body>
+</html>
